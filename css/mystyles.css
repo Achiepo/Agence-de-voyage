@@ -7,7 +7,7 @@
 }
 
 .baniere{
-  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../ima/bg_3.jpg.webp);;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../imag/bg_3.jpg.webp);
   position:relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -118,19 +118,3 @@ input[type="submit"]:hover {
   background-color: green;
 }
 /* fin */
-
-/* pied de page */
-.footer{
-  padding:20px;
-  background-color: wheat;
-  color: white;
-  text-align: center;
-}
-.left{
-  text-align: left;
-}
-.fab fa-facebook{
-  background: #3B5998;
-  color: white;
-}
-/* fin de footer */

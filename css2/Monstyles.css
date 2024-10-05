@@ -27,7 +27,7 @@ h4 {
 /* baniere */
 .baniere {
   position: relative;
-  background: url(../ima/voyage.webp);
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../imag/voyage.webp);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -123,25 +123,3 @@ input[type="submit"]:hover {
   background-color: green;
 }
 /* fin  de contact*/
-
-/* pied de page */
-.footer {
-  margin-top: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 10px;
-  background-color: rgb(134, 121, 121);
-  color: black;
-  text-align: center;
-}
-
-.left {
-  text-align: left;
-}
-
-.fab fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-/* fin de footer */

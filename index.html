@@ -17,7 +17,7 @@
 <!-- section entête -->
 
 <body>
- <nav class="navbar navbar-expand-lg navbar-expand-sm fixed-lg-top">
+ <nav class="navbar navbar-expand-lg navbar-expand-sm fixed-lg-top bg-warning">
         <div class="container-fluid ">
           <a class="navbar-brand text-white" href="#">
           <p>Restaurant Africano</p>
@@ -53,10 +53,10 @@
       </nav>
  <!-- fin entête -->
     <!-- section  hero-->
-    <section class="baniere">
+    <section class="baniere mb-5">
         <div class="my-baniere">
             <h1>Les bons plats africano</h1>
-            <a href="#About" class="bt">About...</a>
+            <a href="#About" class="btn btn-warning">About...</a>
         </div>
     </section>
     <!-- hero fin -->
@@ -71,7 +71,7 @@
                     <li class="nav-item" role="presentation">
                       <button class="nav-link active" id="pills-home-tab"data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
                         <div class="d-flex align-items-center">
-                          <i class="fa-solid fa-burger fa-2x text-warning"></i>
+                          <i class="fa-solid fa-burger fa-2x text-warning mx-2"></i>
                           <p class="text-start text-dark">Popular
                             <br><strong>Emberger</strong></p>
                         </div>
@@ -81,7 +81,7 @@
                     <li class="nav-item" role="presentation">
                       <button class="nav-link active" id="pills-home-tab"data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
                         <div class="d-flex align-items-center">
-                          <i class="fa-solid fa-taxi fa-2x text-warning"></i>
+                          <i class="fa-solid fa-taxi fa-2x text-warning mx-2"></i>
                           <p class="text-start text-dark">Popular
                             <br><strong>livraison</strong></p>
                         </div>
@@ -91,7 +91,7 @@
                     <li class="nav-item" role="presentation">
                       <button class="nav-link active" id="pills-home-tab"data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
                         <div class="d-flex align-items-center">
-                          <i class="fa-solid fa-cake-candles fa-2x text-warning"></i>
+                          <i class="fa-solid fa-cake-candles fa-2x text-warning mx-2"></i>
                           <p class="text-start text-dark">Popular
                             <br><strong>Aniversaire</strong></p>
                         </div>
@@ -104,10 +104,10 @@
 
      <!-- section a propos -->
      <section id="A propos de nous" class="section">
-  <div class="container mt-5 pt-4 py-4 shadow bg-light">
+  <div class="container mt-5 pt-4 py-4 shadow bg-light mb-5">
     <div class="row align-items-center">
         <div class="col-md-6">
-            <img src="./imag/aux.jpg" class="img-fluid shadow-sm shadow-lg" alt="Image">
+            <img src="./imag/im1.jpg" class="img-fluid shadow-sm shadow-lg" alt="Image">
         </div>
         <div class="col-md-6">
             <h2><span class="text-warning">Notre équipes</h2></span>
@@ -119,10 +119,10 @@
 </div>
 </section>
 
-    <section class="mb-5">
+    <section class="mb-3">
         <div class="container text-center align-items-center justify-content-center">
     
-          <div class="d-flex mb-5 text-warning text-center justify-content-center">
+          <div class="d-flex mb-3 text-warning text-center justify-content-center">
             <h2>Nos plats</h2>
           </div>
         <div class="row">
@@ -161,7 +161,7 @@
             <div class="card border-0 shadow click-souris">
               <img src="./imag/poisson.jpg" alt="" class="card-img-top rounded-0"/>
                <div class="card-body">
-                <h2>Poulet chaud épicé</h2>
+                <h2>poisson chaud épicé</h2>
                 <p>Savourez nos poisson braisé aux épices, un plat delicat.</p>
                 <p class="text-danger">2000 (francs CFA)</span></p>
                 <a href="#" class="btn btn-warning">Commander</a>
@@ -175,7 +175,7 @@
             <div class="card border-0 shadow click-souris">
               <img src="./imag/OIP (7).jpeg" alt="" class="card-img-top rounded-0"/>
                <div class="card-body">
-                <h2>Poulet chaud épicé</h2>
+                <h2>poisson chaud épicé</h2>
                 <p>Savourez le poisson accompagné da l'aloco, préparé, avec soin</p>
                 <p class="text-danger">2000 (francs CFA)</span></p>
                 <a href="#" class="btn btn-warning">Commander</a>
@@ -252,11 +252,11 @@
 <!-- Fin de section hero-->
 
   <!-- section contact -->
-  <div class="d-flex mb-3 text-warning text-center justify-content-center bg-light">
+  <div class="d-flex mb-3 text-dark text-center justify-content-center fw-bold">
   <section id="Contact" class="contact">
     <section class="baniere2">
       <div class="cont">
-         <h1><span class=couleur1>Contact</h1></span>
+         <h2><span>Contact</h2></span>
          <form>
             <label for="name">Nom :</label>
             <input type="text" id="name" name="name" required>
@@ -274,14 +274,16 @@
 </section>
 <!-- fin de contact -->
 <!-- pied de page -->
-
-<footer class="footer">
+<footer class="text-center bg-dark">
+  <div class="container pt-4">
+    <section class="">
+    <h5 class="text-light">Suivez-nous sur</h5>
+    <a href="#"><i class="fab fa-facebook mx-2 fa-2x"></i></a>
+    <a href="#"><i class="fab fa-instagram fa-2x me-2"></i></a>
+    <a href="#"><i class="fab fa-square-twitter me fa-2x"></i></a>
     <h5>&copy;Copyright 2024</h5>
-    <h5 span class="left">Réseaux sociaux</h5>
-    <a href="#"><p class="left"><i class="fab fa-facebook"> Facebook</i></p></a>
-    <a href="#"><p class="left"><i class="fab fa-instagram"> Instagram</i></p></a>
-    <a href="#"><p class="left"><i class="fab fa-square-twitter"> Twiter</i></p></a>
-    <a href="#"><p class="left"><p><i class="fa fa-phone"></i>+ 225 05 02 18 97 87</p><br /></p></a>
+  </div>
+ </section>
 </footer>
 
     <script src="./myboostrap/bootstrap/js/bootstrap.bundle.js"></script> 
