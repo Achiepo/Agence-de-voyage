@@ -250,32 +250,97 @@
  </section>
  <!-- photo des chefs 1, 2,3 et 4 fin -->
 <!-- Fin de section hero-->
-
   <!-- section contact -->
   <div class="d-flex mb-3 text-dark text-center justify-content-center fw-bold">
   <section id="Contact" class="contact">
     <section class="baniere2">
       <div class="cont">
-         <h2><span>Contact</h2></span>
-         <form>
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="name" required>
+         <h2><span class="text-warning">Contact</h2></span>
+         <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required>
+          <div class="row g-4 g-lg-5">
+            <div class="col-lg-5">
+              <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+                <h3>Contact Info</h3>
+                <p>Voici nos coordonnées pour toutes questions ou demande de renseignements.</p>
+  
+                <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box">
+                    <i class="bi bi-geo-alt"></i>
+                  </div>
+                  <div class="content">
+                    <h4>Localisation</h4>
+                    <p>Riviera 3, Street</p>
+                    <p>Abidjan, cote d'ivoire</p>
+                  </div>
+                </div>
+  
+                <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                  <div class="icon-box">
+                    <i class="bi bi-telephone"></i>
+                  </div>
+                  <div class="content">
+                    <h4>Phone Number</h4>
+                    <p>+225 05 02 03 35 34</p>
+                    <p>+225 05 66 89 06 24</p>
+                  </div>
+                </div>
+  
+                <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+                  <div class="icon-box">
+                    <i class="bi bi-envelope"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="me-5">Email Address</h4>
+                    <p class="me-5">Kouassi@gmail.com</p>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-7 mb-5">
+              <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+                <h3>vos informations</h3>
+  
+                <form action="forms/contact.php" method="post" class="email-form" data-aos="fade-up" data-aos-delay="200">
+                  <div class="row gy-4">
+  
+                    <div class="col-md-6">
+                      <input type="text" name="name" class="form-control" placeholder="votre Nom" required="">
+                    </div>
+  
+                    <div class="col-md-6 ">
+                      <input type="email" class="form-control" name="email" placeholder="votre Email" required="">
+                    </div>
+  
+                    <div class="col-12">
+                      <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                    </div>
+  
+                    <div class="col-12">
+                      <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                    </div>
+  
+                    <div class="col-12 text-center">
+                    
+                      <button type="submit" class="btn">Envoyer</button>
+                    </div>
+  
+                  </div>
+                </form>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section -->
 
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" rows="4"></textarea>
-
-            <input type="submit" value="Envoyer">
-        </form>
-    </section>
-  </div>
-</section>
-<!-- fin de contact -->
 <!-- pied de page -->
-<footer class="text-center bg-dark">
-  <div class="container pt-4">
+ <hr/>
+<footer class="text-center light-background">
+  <div class="container mt-5">
     <section class="">
     <h5 class="text-light">Suivez-nous sur</h5>
     <a href="#"><i class="fab fa-facebook mx-2 fa-2x"></i></a>
